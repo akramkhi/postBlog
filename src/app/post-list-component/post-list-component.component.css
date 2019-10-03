@@ -1,0 +1,52 @@
+.cardPers {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardcardPers:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.containerPers {
+  padding: 2px 16px;
+}
+.rowPers {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+}
+.ColumnPers{
+  display: table-cell;
+
+}
+
+.buttonPers {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonPers1 {
+  border-radius: 12px;
+  background: lime;
+  width: 100px;
+  margin:12px;
+}
+.buttonPers2 {
+  border-radius: 12px;
+  background: red;
+  width: 120px;
+  margin:12px;
+}
+
+

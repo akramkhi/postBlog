@@ -1,0 +1,14 @@
+<div style="margin: 150px; width: 600px !important; ">
+  <form #newPost = "ngForm" (ngSubmit) = "createNewPost(newPost.value); newPost.reset()">
+    <div class="form-group">
+      <label style="    float: left;"  for="InputTitle">Title </label>
+      <input type="text" class="form-control" id="InputTitle" name="titl"  placeholder="Enter the Title" ngModel>
+    </div>
+    <div class="form-group">
+      <label style="    float: left;" for="InputContent">Content</label>
+      <input type="text" class="form-control" name="contennt" id="InputContent" placeholder="Enter the Content" ngModel >
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
